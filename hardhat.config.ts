@@ -73,6 +73,10 @@ const config: HardhatUserConfig = {
     polygon: {
       url: `https://polygon-mainnet.infura.io/v3/${process.env.INFURA_API_KEY}`,
     },
+    harmony: {
+      url: `https://api.harmony.one`,
+    },
+
   },
   solidity: {
     compilers: [DEFAULT_COMPILER_SETTINGS],
